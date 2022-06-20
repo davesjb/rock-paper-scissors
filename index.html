@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="content flex-box">
+          <div class="column">
+            <div class="row">
+              <div data-hand class="hand player-1 bounce-intro bounce"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="row">
+              <div data-hand-2 class="hand player-2 bounce-intro bounce"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content flex-box">
+          <div class="column">
+            <div class="row">
+              <p>Your Score <span data-points>0</span></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="row">
+              <p>Opponents Score <span data-points-opp>0</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="content flex-box-center">
+          <div class="column">
+            <div class="row center-text">
+              <h2>Rock Paper Scissors</h2>
+              <p data-main class="main-text">
+                Press r for Rock, press s for Scissors or press p for Paper or
+                click on
+              </p>
+              <button data-start class="btn start show">Start</button>
+
+              <button data-selection="rock" class="btn rock hide">Rock</button>
+              <button data-selection="paper" class="btn paper hide">
+                Paper
+              </button>
+              <button data-selection="scissors" class="btn scissors hide">
+                Scissors
+              </button>
+
+              <button data-play-again class="btn play-again hide">
+                Play again
+              </button>
+              <div class="score-board">
+                <p>Round <span data-round>0</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
